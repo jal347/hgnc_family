@@ -1,0 +1,77 @@
+[
+    {
+        "_id": "6624",
+        "hgnc_genegroup": [
+            {
+                "id": "3",
+                "abbr": "FSCN",
+                "name": "Fascin family",
+                "comments": "",
+                "pubmed": [
+                    21618240
+                ],
+                "typical_gene": "FSCN1"
+            }
+        ]
+    },
+    {
+        "_id": "25794",
+        "hgnc_genegroup": [
+            {
+                "id": "3",
+                "abbr": "FSCN",
+                "name": "Fascin family",
+                "comments": "",
+                "pubmed": [
+                    21618240
+                ],
+                "typical_gene": "FSCN1"
+            }
+        ]
+    },
+    {
+        "_id": "29999",
+        "hgnc_genegroup": [
+            {
+                "id": "3",
+                "abbr": "FSCN",
+                "name": "Fascin family",
+                "comments": "",
+                "pubmed": [
+                    21618240
+                ],
+                "typical_gene": "FSCN1"
+            }
+        ]
+    },
+    {
+        "_id": "2107",
+        "hgnc_genegroup": [
+            {
+                "id": "1963",
+                "abbr": "",
+                "name": "SURF complex",
+                "comments": "",
+                "pubmed": [
+                    30992545
+                ],
+                "typical_gene": ""
+            }
+        ]
+    },
+    {
+        "_id": "2935",
+        "hgnc_genegroup": [
+            {
+                "id": "1963",
+                "abbr": "",
+                "name": "SURF complex",
+                "comments": "",
+                "pubmed": [
+                    30992545
+                ],
+                "typical_gene": ""
+            }
+        ]
+    }
+]
