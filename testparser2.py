@@ -63,5 +63,6 @@ for key, value in query[0].items():
     hgnc[key]["_id"] = value[0]
 
 print(len(hgnc.keys()))
+print(query[1])
 
 
