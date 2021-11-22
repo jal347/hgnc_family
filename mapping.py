@@ -20,7 +20,8 @@ def get_customized_mapping(cls):
                     "type": "text"
                 },
                 "comments": {
-                    "type": "text"
+                    "type": "text",
+                    "index": False
                 }
             }
         }
