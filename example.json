@@ -1,0 +1,15 @@
+{
+    "_id": "6624",
+    "hgnc_genegroup": [
+        {
+            "id": "3",
+            "abbr": "FSCN",
+            "name": "Fascin family",
+            "comments": "",
+            "pubmed": [
+                21618240
+            ],
+            "typical_gene": "FSCN1"
+        }
+    ]
+}
