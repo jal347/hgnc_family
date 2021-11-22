@@ -11,15 +11,28 @@ data1.rename(
     columns=({'id':'family_id'}),
     inplace=True
 )
+
+# number of family ids
 print(len(data1['family_id']))
 
+# all the hgnc ids
 print(len(data2["hgnc_id"]))
+
+# all of the unique hgnc ids
+print(len(data2["hgnc_id"].unique()))
+
+# all of the 1-1 hgnc ids to family ids
 print(len(data2[~data2.hgnc_id.duplicated(keep=False)]))
 
+# all of the 1-n hgnc ids to family ids
 dupes = data2[data2.hgnc_id.duplicated(keep=False)].sort_values("hgnc_id")
 print(len(dupes["hgnc_id"]))
+
+# groups the duplicate 1-n hgnc ids to family ids
 dupes = dupes.groupby(["hgnc_id"]).size().reset_index(name="mapping")
 print(dupes)
+
+# the max 1-n hgnc ids to family ids (7)
 print(dupes["mapping"].max())
 mapping = dupes.groupby(["mapping"]).size().reset_index(name="count")
 print(mapping)
