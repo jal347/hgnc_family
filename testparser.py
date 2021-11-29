@@ -26,6 +26,7 @@ print(len(data2[~data2.hgnc_id.duplicated(keep=False)]))
 
 # all of the 1-n hgnc ids to family ids
 dupes = data2[data2.hgnc_id.duplicated(keep=False)].sort_values("hgnc_id")
+print(dupes)
 print(len(dupes["hgnc_id"]))
 
 # groups the duplicate 1-n hgnc ids to family ids
